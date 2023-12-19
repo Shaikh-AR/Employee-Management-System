@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Silkscreen&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	width: 100vw;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+table {
+	border: 0;
+	font-size: 1.2rem;
+}
+
+th {
+	background-color: salmon;
+	border: 0;
+	color: #fff;
+	padding: 1rem;
+}
+
+tr {
+	border: 0;
+	border-bottom: 3px solid #565656;
+}
+
+td {
+	border: 0;
+	padding: 1rem;
+}
+
+a {
+	padding: .5em 1em;
+	font-size: 1.3rem;
+	text-decoration: none;
+	margin: .5rem 2rem;
+	font-weight: 600;
+}
+
+a:hover {
+	color: salmon;
+}
+
+div {
+	width: 100%;
+	position: fixed;
+}
